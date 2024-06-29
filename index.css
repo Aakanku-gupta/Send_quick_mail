@@ -1,0 +1,294 @@
+* {
+  max-width: 100%;
+  /* outline: 2px solid red; */
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  border: 5px solid white;
+}
+@media only screen and (max-width: 600px) {
+  .collapse {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 320px) {
+  #product {
+    margin-right: 10px;
+  }
+  #drop {
+    position: absolute;
+  }
+}
+
+@media (max-width: 320px) {
+  .dropdown-menu {
+    width: 50%;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .col-login {
+
+  }
+} */
+
+#logo {
+  margin-bottom: 20px;
+}
+
+#lang {
+  list-style: none;
+  color: black;
+}
+@media only screen and (max-width: 320px) {
+  #lang {
+    width: 50px;
+  }
+}
+
+#notification {
+  list-style: none;
+  color: black;
+}
+@media only screen and (max-width: 320px) {
+  #notification {
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #login {
+    width: 50px;
+  }
+}
+
+#col1 {
+  background-image: url(image/banner.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  #col1 {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.banner {
+  font-family: Century Gothic;
+  font-size: 40px;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    justify-content: flex-start;
+    /* padding-top: 20px; */
+    margin-right: 100px;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .signup {
+    padding-bottom: 300px;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+.carddata {
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+  border: none;
+}
+
+.cardimage1 {
+  box-shadow: 3px 5px 10px 0px black;
+}
+
+.cardimage2 {
+  box-shadow: -5px 5px 10px 0px black;
+}
+#emailcard {
+  text-align: center;
+  font-size: 30px;
+  /* font-family: cursive; */
+}
+
+
+#tools {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  /* display: block; */
+  /* background-color: #f2f8f9; */
+  border-radius: 0px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  color: rgb(6, 17, 14);
+  text-align: center;
+}
+
+#tools div:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 10px 10px 6px 0px rgba(38, 38, 38, 0.2);
+  border: 0px #c6e3f3;
+  background-color: rgb(131, 210, 230);
+}
+
+#tools div:hover:before {
+  transform: scale(2.15);
+}
+
+#emptemp1 {
+  padding-left: 70px;
+  /* font-family: cursive; */
+}
+
+#emptemp2 {
+  padding-top: 200px;
+  /* font-family: cursive; */
+}
+
+.testimonial {
+  background-color: rgb(198, 235, 247);
+}
+
+#footer {
+  padding: 5px 0 0 0;
+  background-color: rgb(123, 210, 236);
+  color: black;
+}
+
+.sec {
+  color: black;
+  text-decoration: none;
+}
+
+.text-reset {
+  text-decoration: none;
+}
+
+#Cname {
+  color: black;
+  text-decoration: none;
+}
+
+.mailto {
+  color: black;
+  text-decoration: none;
+}
+
+#office {
+  font-size: 15px;
+  text-align: center;
+}
+
+#office p {
+  text-align: start;
+}
+
+#facebook {
+  padding: 20px 15px 5px 15px;
+}
+
+#facebook:hover {
+  border-radius: 100px;
+  background-color: white;
+}
+
+#twitter {
+  padding: 20px 8px 5px 15px;
+}
+
+#twitter:hover {
+  border-radius: 100px;
+  background-color: white;
+}
+
+#google {
+  padding: 20px 11px 5px 15px;
+}
+
+#google:hover {
+  border-radius: 100px;
+  background-color: white;
+}
+
+#instagram {
+  padding: 20px 12px 5px 14px;
+}
+
+#instagram:hover {
+  border-radius: 100px;
+  background-color: white;
+}
+
+#linkedin {
+  padding: 20px 12px 5px 12px;
+}
+
+#linkedin:hover {
+  border-radius: 100px;
+  background-color: white;
+}
+
+/* Preloder */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+}
+
+#loader {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#content {
+  display: none;
+}
